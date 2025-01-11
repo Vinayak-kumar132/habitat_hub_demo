@@ -20,6 +20,7 @@ exports.signup = async (req, res, next) => {
       success: true,
       message: "User registered successfully",
     });
+    
   } catch (error) {
     next(error);
   }
